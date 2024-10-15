@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            height: 600vh;
+        }
+
+        #up {
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        .to-up {
+            background-color: red;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+            position: absolute;
+            left: 0;
+            top: 20px;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+
+
+
+        /* 
+            static => default
+            absolute
+            relative
+            fixed
+        */
+    </style>
+</head>
+<body>
+    <div id="up">
+        <h1>Top</h1>
+    </div>
+
+    <div class="to-up">
+        <a href="#up">
+            Up
+        </a>
+    </div>
+</body>
+</html>
